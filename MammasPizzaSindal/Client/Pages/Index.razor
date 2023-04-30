@@ -1,0 +1,1291 @@
+﻿@page "/"
+
+    <!-- HEADER -->
+    <header>
+        <!-- NAVIGATION DESKTOP -->
+    <nav id="navbar">
+        <!-- DIV LOGO -->
+        <div id="logo-div">
+            <a href="#hero-section">
+                <img id="logo-img" src="../img/Frame 1.png" alt="Logo">
+            </a>
+        </div>
+        <!--END Logo Div-->
+        <!-- LINKS NAVIGATION -->
+        <a id="nav-menu-id" href="#meny-section">
+            <div class="nav-btn hide">
+                <i class="fa fa-cutlery" aria-hidden="true"></i>
+                <p>Menu</p>
+            </div>
+        </a>
+        <a id="nav-location-id" href="#contact-id">
+            <div id="location-btn" class="nav-btn hide">
+                <i class="fa fa-map-marker" aria-hidden="true"></i>
+                <p>Find os</p>
+            </div>
+        </a>
+        <a id="nav-opening-hours-id" href="#opening-hours-id">
+            <div class="nav-btn hide">
+                <i class="fa fa-clock-o" aria-hidden="true"></i>
+                <p>Åbningstider</p>
+            </div>
+        </a>
+        <a id="nav-phone-id" href="tel:98935566">
+            <div class="nav-btn hide">
+                <i class="fa fa-phone" aria-hidden="true"></i>
+                <p>98 93 55 66</p>
+            </div>
+        </a>
+        <!--END Navigation Links-->
+        <!-- NAVIGATION MOBILE -->
+        <a class="nav-btn" id="hamburger-btn">
+            <!--open btn-->
+            <i id="open-btn" class="fa fa-bars btn" aria-hidden="true"></i>
+            <!--close btn-->
+            <i id="close-btn" class="fa fa-times btn" aria-hidden="true"></i>
+        </a>
+        <!--END Mobile Navigation -->
+    </nav>
+    <!--END Navigation Desktop-->
+    <!-- NAVIGATION MOBILE HAMBURGUR MENU -->
+    <nav id="mobile-hamburger-menu">
+        <a id="nav-menu-id" href="#meny-section">
+            <div onclick="closeMenu()" class="nav-btn">
+                <i class="fa fa-cutlery" aria-hidden="true"></i>
+                <p>Menu</p>
+            </div>
+        </a>
+        <a id="nav-location-id" href="#contact-id">
+            <div onclick="closeMenu()" id="location-btn" class="nav-btn">
+                <i class="fa fa-map-marker" aria-hidden="true"></i>
+                <p>Finde her</p>
+            </div>
+        </a>
+        <a id="nav-opening-hours-id" href="#opening-hours-id">
+            <div onclick="closeMenu()" class="nav-btn">
+                <i class="fa fa-clock-o" aria-hidden="true"></i>
+                <p>Åbningstider</p>
+            </div>
+        </a>
+        <a id="nav-phone-id" href="tel:98935566">
+            <div class="nav-btn">
+                <i class="fa fa-phone" aria-hidden="true"></i>
+                <p>98 93 55 66</p>s
+            </div>
+        </a>
+    </nav>
+    <!--END Mobile Hamburger Menu-->
+    </header>
+    <!-- CONTENT -->
+    <div class="container">
+        <main role="main" class="pb-3">
+            
+    <!-- SECTION HERO -->
+    <section onclick="closeMenu()" id="hero-section">
+        <!-- DIV IMG HERO-->
+        <div id="img-wrapper">
+            <div id="img-blur"></div>
+            <div id="img-front-wrapper">
+                <img id="img-front" src="../img/Mamman-pezzeria.jpg" alt="">
+            </div>
+        </div>
+        <!--END Hero Image Div-->
+        <!-- ARTICLE HERO FROKOSTTILBUD-->
+        <article id="hero-article">
+            <div class="hero">
+                <h1 class="big-title">FROKOSTTILBUD</h1>
+                <h2>Gælder kun hverdage indtil kl. 15:00</h2>
+            </div>
+            <div class="hero-text-wrapper">
+                <div class="hero-list-div hero-text">
+                    <ul class="hero-list-1">
+                        <li>Pizza</li>
+                        <li>Durum</li>
+                    </ul>
+                    <ul class="hero-list-2">
+                        <li>nr. 1 - 60</li>
+                        <li>nr. 89 - 91</li>
+                    </ul>
+                </div>
+                <div class="hero-middle hero-text">
+                    <h1 class="title">FRIT VALG</h1>
+                    <h1 id="big-number">65.-</h1>
+                </div>
+                <div class="hero-right hero-text">
+                    <p>Frokosttilbud gælder ikke i weekenden, på helligdage, ved DannaCup samt Sindal marked</p>
+                </div>
+            </div>
+        </article>
+        <!--END Frokosttilbud Hero Article-->
+    </section>
+    <!--END Hero Section-->
+    <section onclick="closeMenu()" class="info-section" id="meny-section">
+    <h1 class="big-title">Menukort</h1>
+    <article id="meny-content">
+        <div class="menuCard" id="menuCardTable">
+            <div class="row" ><div class="col" ><h4>Pizza</h4></div></div>
+<div class="row"><div class="col" >Vi bruger MozzarellaOst på alle vores pizzaer.</div></div>
+<div class="row"><div class="col" ><i>Alle pizzaer kan laves som familiepizza til dobbelt pris.</i></div></div>
+<div class="row"><div class="col" ><i>Alle pizzaer kan laves som glutenfri +35,-.</i></div></div>
+<div class="row menuRow">
+    <div class="col">1</div>
+    <div class="col">Margherita</div>
+    <div class="col">Tomatsauce, ost, oregano</div>
+    <div class="col">61,-</div>
+</div>
+<div class="row menuRow">
+    <div class="col">2</div>
+    <div class="col">Vesuvio</div>
+    <div class="col">Tomatsauce, ost, skinke, oregano</div>
+    <div class="col">69,-</div>
+</div>
+<div class="row menuRow">
+    <div class="col">2A</div>
+    <div class="col">Vesuvio A</div>
+    <div class="col">Tomatsauce, ost, pepperoni</div>
+    <div class="col">69,-</div>
+</div>
+<div class="row menuRow">
+    <div class="col">3</div>
+    <div class="col">Mamma's</div>
+    <div class="col">Tomatsauce, ost, skinke, champignon, oregano</div>
+    <div class="col">72,-</div>
+</div>
+<div class="row">
+    <div class="col">4</div>
+    <div class="col">Mamma Mia</div>
+    <div class="col">Tomatsauce, ost, tunfisk, rejer, muslinger, oregano</div>
+    <div class="col">82,-</div>
+</div>
+<div class="row">
+    <div class="col">5</div>
+    <div class="col">Gorgonzola</div>
+    <div class="col">Tomatsauce, ost, rød peber, champignon, løg, gorgonzola-ost, oregano</div>
+    <div class="col">74,-</div>
+</div>
+<div class="row">
+    <div class="col">6</div>
+    <div class="col">Ciao Ciao</div>
+    <div class="col">Tomatsauce, ost, skinke, pepperoni, oregano</div>
+    <div class="col">74,-</div>
+</div>
+<div class="row">
+    <div class="col">7</div>
+    <div class="col">Meat Lover</div>
+    <div class="col">Tomatsauce, ost, skinke, kebab, pepperoni, pølser, bacon, chilipulver, hvidløg, oregano</div>
+    <div class="col">93</div>
+</div>
+<div class="row">
+    <div class="col">8</div>
+    <div class="col">Alfredo</div>
+    <div class="col">Tomatsauce, ost, skinke, bacon, æg, oregano</div>
+    <div class="col">76,-</div>
+</div>
+<div class="row">
+    <div class="col">9</div>
+    <div class="col">Vegetarina</div>
+    <div class="col">Tomatsauce, ost, champignon, løg, annanas, rød peber, oregano</div>
+    <div class="col">73,-</div>
+</div>
+<div class="row">
+    <div class="col">10</div>
+    <div class="col">Firat</div>
+    <div class="col">Tomatsauce, ost, kylling, bacon, annanas, karry, oregano</div>
+    <div class="col">76,-</div>
+</div>
+<div class="row">
+    <div class="col">11</div>
+    <div class="col">Victoria</div>
+    <div class="col">Tomatsauce, ost, skinke, champignon, annanas, løg, oregano</div>
+    <div class="col">78,-</div>
+</div>
+<div class="row">
+    <div class="col">12</div>
+    <div class="col">Hawai</div>
+    <div class="col">Tomatsauce, ost, skinke, annanas, oregano</div>
+    <div class="col">74,-</div>
+</div>
+<div class="row">
+    <div class="col">13</div>
+    <div class="col">Gökhan</div>
+    <div class="col">Tomatsauce, ost, kebab, pepperoni, løg, champignon, husets specialsauce, oregano</div>
+    <div class="col">83,-</div>
+</div>
+<div class="row">
+    <div class="col">14</div>
+    <div class="col">Mille</div>
+    <div class="col">Tomatsauce, ost, oksekød, salatost, rød peber, løg, chilipulver, oregano</div>
+    <div class="col">81,-</div>
+</div>
+<div class="row">
+    <div class="col">15</div>
+    <div class="col">Frandsen</div>
+    <div class="col">Tomatsauce, ost, skinke, kødsauce, bearnaisesauce, oregano</div>
+    <div class="col">77,-</div>
+</div>
+<div class="row">
+<div class="col">16</div>
+<div class="col">Pizza Bolognese</div>
+<div class="col">Tomatsauce, ost, kødsauce, løg, oregano</div>
+<div class="col">71,-</div>
+</div>
+<div class="row">
+    <div class="col">17</div>
+    <div class="col">Romana</div>
+    <div class="col">Tomatsauce, ost, skinke, bacon, champignon, oregano</div>
+    <div class="col">76,-</div>
+</div>
+<div class="row">
+    <div class="col">18</div>
+    <div class="col">Sorrento</div>
+    <div class="col">Tomatsauce, ost, skinke, oksekød, oregano</div>
+    <div class="col">76,-</div>
+</div>
+<div class="row">
+    <div class="col">19</div>
+    <div class="col">Special</div>
+    <div class="col">Tomatsauce, ost, kødsauce, rød peber, løg, bacon, pepperoni, oregano</div>
+    <div class="col">83,-</div>
+</div>
+<div class="row">
+    <div class="col">20</div>
+    <div class="col">Rimini</div>
+    <div class="col">Tomatsauce, ost, oksekød, pepperoni, rød peber, oregano</div>
+    <div class="col">73,-</div>
+</div>
+<div class="row">
+    <div class="col">21</div>
+    <div class="col">Hapsan</div>
+    <div class="col">Tomatsauce, ost, skinke, kødsauce, rejer, bearnaisesauce, champignon, oregano</div>
+    <div class="col">83,-</div>
+</div>
+<div class="row">
+    <div class="col">22</div>
+    <div class="col">Torino</div>
+    <div class="col">Tomatsauce, ost, kødsauce, skinke, pølser, oregano</div>
+    <div class="col">78,-</div>
+</div>
+<div class="row">
+    <div class="col">23</div>
+    <div class="col">Palermo</div>
+    <div class="col">Tomatsauce, ost, skinke, kødsauce, chilipulver, jalepeños, oregano</div>
+    <div class="col">79,-</div>
+</div>
+<div class="row">
+    <div class="col">24</div>
+    <div class="col">Alex</div>
+    <div class="col">Tomatsauce, ost, skinke, champignon, rejer, muslinger, oliven, oregano</div>
+    <div class="col">81,-</div>
+</div>
+<div class="row">
+    <div class="col">25</div>
+    <div class="col">Baba</div>
+    <div class="col">Tomatsauce, ost, skinke, kødsauce, bacon, æg, løg, oregano</div>
+    <div class="col">81,-</div>
+</div>
+<div class="row">
+    <div class="col">26</div>
+    <div class="col">Mads</div>
+    <div class="col">Tomatsauce, ost, skinke, bacon, peproni, chilipulver, oregano</div>
+    <div class="col">78,-</div>
+</div>
+<div class="row">
+    <div class="col">27</div>
+    <div class="col">Knirke</div>
+    <div class="col">Tomatsauce, ost, kebab, rød peber, tomatskiver, bearnaisesauce, oregano</div>
+    <div class="col">76,-</div>
+</div>
+<div class="row">
+    <div class="col">28</div>
+    <div class="col">Grande</div>
+    <div class="col">Tomatsauce, ost, kebab, grøn peber, løg, tomatskiver, hvidløg, karry, oregano</div>
+    <div class="col">76,-</div>
+</div>
+<div class="row">
+    <div class="col">29</div>
+    <div class="col">Zorro</div>
+    <div class="col">Tomatsauce, ost, kebab, champignon, rød peber, løg, bearnaisesauce, oregano</div>
+    <div class="col">80,-</div>
+</div>
+<div class="row">
+    <div class="col">31</div>
+    <div class="col">Gulan</div>
+    <div class="col">Tomatsauce, ost, skinke, kebab, bacon, chilipulver, oregano</div>
+    <div class="col">79,-</div>
+</div>
+<div class="row">
+    <div class="col">32</div>
+    <div class="col">Emine</div>
+    <div class="col">Tomatsauce, ost, kebab, champignon, æg, løg, chilipulver, hvidløg, oregano</div>
+    <div class="col">77,-</div>
+</div>
+<div class="row">
+    <div class="col">33</div>
+    <div class="col">Barbados</div>
+    <div class="col">Tomatsauce, ost, skinke, kebab, majs, champignon, grøn peber, løg, oregano</div>
+    <div class="col">81,-</div>
+</div>
+<div class="row">
+    <div class="col">34</div>
+    <div class="col">Berat</div>
+    <div class="col">Tomatsauce, ost, tyrkisk salami (sucuk), salatost, rød peber, pølser, chilipulver, oregano</div>
+    <div class="col">83,-</div>
+</div>
+<div class="row">
+    <div class="col">35</div>
+    <div class="col">Byg selv pizza</div>
+    <div class="col">Tomatsauce, ost, vælg selv 6 ting, du vil have på
+    <br> (undtagen salat og pommes frites), 
+    <br>serveres med oregano drysset over.</div>
+<div class="col">93,-</div>
+</div>
+<div class="row">
+<div class="col">36</div>
+    <div class="col">Natalie</div>
+    <div class="col">Tomatsauce, ost, skinke, kødsauce, pølser, peperoni, oregano</div>
+    <div class="col">81,-</div>
+</div>
+<div class="row">
+    <div class="col">37</div>
+    <div class="col">Besiktas</div>
+    <div class="col">Tomatsauce, ost, skinke, kødsauce, peperoni, rød peber, løg, oregano</div>
+    <div class="col">81,-</div>
+</div>
+<div class="row">
+    <div class="col">38</div>
+    <div class="col">Papparazi</div>
+    <div class="col">Tomatsauce, ost, skinke, kebab, oksekød, pølser, rød peber, oregano</div>
+    <div class="col">82,-</div>
+</div>
+<div class="row">
+    <div class="col">39</div>
+    <div class="col">Aspendos</div>
+    <div class="col">Tomatsauce, ost, kebab, champignon, løg, gorgonzola-ost, rød peber, oregano</div>
+    <div class="col">79,-</div>
+</div>
+<div class="row">
+    <div class="col">40</div>
+    <div class="col">Matador</div>
+    <div class="col">Tomatsauce, ost, oksekød, oliven, løg, champignon, pepperoni, hvidløg, oregano</div>
+    <div class="col">79,-</div>
+</div>
+<div class="row">
+    <div class="col">41</div>
+    <div class="col">Efes</div>
+    <div class="col">Tomatsauce, ost, bacon, pølser, pepperoni, løg, rød peber, oregano</div>
+    <div class="col">81,-</div>
+</div>
+<div class="row">
+    <div class="col">42</div>
+    <div class="col">>Amerikaner</div>
+    <div class="col">Tomatsauce, ost, kødsauce, spaghetti, pølser, oregano</div>
+    <div class="col">78,-</div>
+</div>
+<div class="row">
+    <div class="col">43</div>
+    <div class="col">A'La Rambo</div>
+    <div class="col">Tomatsauce, ost, kebab, løg, bacon, rød peber, chilipulver, oregano</div>
+    <div class="col">78,-</div>
+</div>
+<div class="row">
+    <div class="col">44</div>
+    <div class="col">Juventus</div>
+    <div class="col">Tomatsauce, ost, skinke, kylling, anannas, kødsauce, karry, oregano</div>
+    <div class="col">80,-</div>
+</div>
+<div class="row">
+    <div class="col">45</div>
+    <div class="col">Luca</div>
+    <div class="col">Tomatsauce, ost, skinke, kebab, bacon, pølser, champignon, oregano</div>
+    <div class="col">86,-</div>
+</div>
+<div class="row">
+    <div class="col">46</div>
+    <div class="col">Helle</div>
+    <div class="col">Tomatsauce, ost, kebab, pepperoni, pølser, bearnaisesauce, oregano</div>
+    <div class="col">81,-</div>
+</div>
+<div class="row">
+    <div class="col">48</div>
+    <div class="col">Simon</div>
+    <div class="col">Tomatsauce, ost, skinke, kylling, bearnaisesauce, karry, oregano</div>
+    <div class="col">80,-</div>
+</div>
+<div class="row">
+    <div class="col">49</div>
+    <div class="col">Martin</div>
+    <div class="col">Tomatsauce, ost, spaghetti, kødsauce, kylling, pepperoni</div>
+    <div class="col">81,-</div>
+</div>
+<div class="row">
+    <div class="col">50</div>
+    <div class="col">Venezia</div>
+    <div class="col">Tomatsauce, ost, skinke, kebab, kødsauce, løg, rød peber, chilipulver, oregano</div>
+    <div class="col">82,-</div>
+</div>
+<div class="row">
+    <div class="col">51</div>
+    <div class="col">Lars</div>
+    <div class="col">Tomatsauce, ost, skinke, kødsauce, løg, bacon, kylling, pepperoni, oregano</div>
+    <div class="col">84,-</div>
+</div>
+<div class="row">
+    <div class="col">52</div>
+    <div class="col">Oktay</div>
+    <div class="col">Tomatsauce, ost, skinke, kødsauce, kylling, løg, rød peber, chilipulver, hvidløg, oregano</div>
+    <div class="col">83,-</div>
+</div> 
+            <div class="row"><div class="col"><h4>Salat Pizza</h4></div></div>
+<div class="row">
+    <div class="col">30</div>
+    <div class="col">Zeki</div>
+    <div class="col">Tomatsauce, ost, kebab, pepperoni, salat, agurk, tomatskiver, dressing</div>
+    <div class="col">82,-</div>
+</div>
+<div class="row" >
+    <div class="col">47</div>
+    <div class="col">Totti</div>
+    <div class="col">Tomatsauce, ost, kylling, peperoni, salat, agurk, tomatskiver, dressing</div>
+    <div class="col">82,-</div>
+</div>
+<div class="row">
+    <div class="col">53</div>
+    <div class="col">Bari</div>
+    <div class="col">Tomatsauce, ost, oksekød, jalepeños, salat, agurk, tomatskiver, dressing</div>
+    <div class="col">82,-</div>
+</div>
+<!--
+<div class="row">
+    <div class="col">54</div>
+    <div class="col">Italiano Salat</div>
+    <div class="col">Pizzabund, kebab, salat, agurk, tomatskiver, dressing</div>
+    <div class="col">78,- </div>
+</div>
+-->
+            <div class="row" ><div class="col"><h4>Pommes Frites Pizza</h4></div></div>
+<div class="row" >
+    <div class="col" >54A</div>
+    <div class="col" >Pommes Pizza</div>
+    <div class="col" >Tomatsauce, ost, dressing samt valgfrit fyld, hvor der kan vælges mellem: 
+    <br>- skinke, 
+    <br>- kebab,
+    <br>- pepperoni,
+    <br>- tyrkisk salami,
+    <br>- oksekød, 
+    <br>- kylling</div>
+    <div class="col" >94</div>
+</div>
+            <div class="row" ><div class="col" ><h4>Mexicana Pizza</h4></div></div>
+<div class="row" >
+    <div class="col" >55</div>
+    <div class="col" >Super stærk</div>
+    <div class="col" >Tomatsauce, ost, kebab, løg, kylling, pepperoni, jalepeños, chilipulver, oregano</div>
+    <div class="col" >87,-</div>
+</div>
+<div class="row" >
+    <div class="col" >56</div>
+    <div class="col" >Amigo</div>
+    <div class="col" >Tomatsauce, ost, oksekød, pepperoni, løg, rød peber, pølser, chilipulver, jalepeños, oregano</div>
+    <div class="col" >87,-</div>
+</div>
+<div class="row" >
+    <div class="col" >57</div>
+    <div class="col" >Al Paso</div>
+    <div class="col" >Tomatsauce, ost, skinke, kødsauce, champignon, bacon, pølser, chilipulver, jalepenos, oregano</div>
+    <div class="col" >87,-</div>
+</div>
+            <div class="row" ><div class="col" ><h4>Indbagt Pizza</h4></div></div>
+<div class="row" >
+    <div class="col" >58</div>
+    <div class="col" >Calzone</div>
+    <div class="col" >Tomatsauce, ost, skinke, rejer, oregano</div>
+    <div class="col" >77,-</div>
+</div>
+<div class="row" >
+    <div class="col" >59</div>
+    <div class="col" >Pizza Spaghetti</div>
+    <div class="col" >Tomatsauce, ost, spaghetti, kødsauce, oregano</div>
+    <div class="col" >75,-</div>
+</div>
+<div class="row" >
+    <div class="col" >60</div>
+    <div class="col" >Mamma Mia</div>
+    <div class="col" >Tomatsauce, ost, løg, champignon, kebab, chilipulver, hvidløg, oregano</div>
+    <div class="col" >77,-</div>
+</div>
+<div class="row" >
+    <div class="col" >60A</div>
+    <div class="col" >Asmin</div>
+    <div class="col" >Tomatsauce, ost, kebab, kylling, champignon, creme fraice dressing, oregano</div>
+    <div class="col" >82,-</div>
+</div>
+            <div class="row" ><div class="col" ><h4>Halvindbagt Pizza</h4></div></div>
+<div class="row" >
+    <div class="col" >61</div>
+    <div class="col" >Verona</div>
+    <div class="col" >Tomatsauce, ost, skinke, kebab, bearnaisesauce, oregano</div>
+    <div class="col" >80,-</div>
+</div>
+<div class="row" >
+    <div class="col" >62</div>
+    <div class="col" >Napoli</div>
+    <div class="col" >Tomatsauce, ost, kebab, pepperoni, bacon, chilipulver, hvidløg, oregano</div>
+    <div class="col" >80,-</div>
+</div>
+<div class="row" >
+    <div class="col" >63</div>
+    <div class="col" >Roma</div>
+    <div class="col" >Tomatsauce, ost, skinke, kødsauce, pølser, anannas, oregano</div>
+    <div class="col" >80,-</div>
+</div>
+            <div class="row" ><div class="col" ><h4>Dobbeltindbagt Pizza</h4></div></div>
+<div class="row" >
+    <div class="col" >64</div>
+    <div class="col" >UFO</div>
+    <div class="col" >Tomatsauce, ost, skinke, champignon, rejer, oregano</div>
+    <div class="col" >90,-</div>
+</div>
+<div class="row" >
+    <div class="col" >65</div>
+    <div class="col" >Alanya</div>
+    <div class="col" >Tomatsauce, ost, kebab, løg, bearnaisesauce, pepperoni, oregano</div>
+    <div class="col" >90,-</div>
+</div>
+<div class="row" >
+    <div class="col" >65A</div>
+    <div class="col" >Nisa</div>
+    <div class="col" >Tomatsauce, ost, kebab, løg, kylling, pølser, bearnaisesauce, oregano</div>
+    <div class="col" >90,-</div>
+</div>
+            <div class="row" ><div class="col" ><h4>Parma Pizza</h4></div></div>
+<div class="row" >
+    <div class="col" >146</div>
+    <div class="col" >Parma 1</div>
+    <div class="col" >Tomatsauce, ost, serranoskinke, rucola, parmasanost, tomatskiver, olivenolie</div>
+    <div class="col" >92,-</div>
+</div>
+<div class="row" >
+    <div class="col" >147</div>
+    <div class="col" >Parma 2</div>
+    <div class="col" >Tomatsauce, ost, serranoskinke, oksekød, rucola, dressing</div>
+    <div class="col" >88,-</div>
+</div>
+            <div class="row" ><div class="col" ><h4>Nachos Pizza</h4></div></div>
+<div class="row" >
+    <div class="col" >220</div>
+    <div class="col" >Kylling</div>
+    <div class="col" >Tomatsauce, ost, nachos, cheddarost, kylling, rød peber, jalepeños, salsa</div>
+    <div class="col" >90,-</div>
+</div>
+<div class="row" >
+    <div class="col" >221</div>
+    <div class="col" >Nachos Pizza Kebab</div>
+    <div class="col" >Tomatsauce, ost, nachos cheddarost, kebab, pepperoni, jalepeños, salsa</div>
+    <div class="col" >90,-</div>
+</div>
+<div class="row" >
+    <div class="col" >222</div>
+    <div class="col" >Nachos Special</div>
+    <div class="col" >Tomatsauce, ost, nachos, cheddarost, skinke, oksekød, jalepeños, salsa</div>
+    <div class="col" >90,-</div>
+</div>
+            <div class="row" ><div class="col" ><h4>Børnemenu</h4></div></div>
+<div class="row" >
+    <div class="col" >66</div>
+    <div class="col" >Chello Pizza</div>
+    <div class="col" >Tomatsauce, ost, skinke</div>
+    <div class="col" >55,-</div>
+</div>
+<div class="row" >
+    <div class="col" >67</div>
+    <div class="col" >Emre's Pizza</div>
+    <div class="col" >Tomatsauce, ost, pølser</div>
+    <div class="col" >55,-</div>
+</div>
+<div class="row" >
+    <div class="col" >68</div>
+    <div class="col" >Spaghetti</div>
+    <div class="col" >Spaghetti med kødsauce</div>
+    <div class="col" >55,-</div>
+</div>
+<div class="row" >
+    <div class="col" >69</div>
+    <div class="col" >Fiskefilét</div>
+    <div class="col" >med 1 fisk, amerikanske pommes frites, ketchup og remoulade</div>
+    <div class="col" >55,-</div>
+</div>
+<div class="row" >
+    <div class="col" >70</div>
+    <div class="col" >Pølsemix</div>
+    <div class="col" >Pølser med amerikanske pommmes frites, ketchup og remoulade</div>
+    <div class="col" >55,-</div>
+</div>
+<div class="row" >
+    <div class="col" >71</div>
+    <div class="col" >Nuggets</div>
+    <div class="col" >6 stk. nuggets med amerikanske pommes frites, ketchup og remoulade</div>
+    <div class="col" >55,-</div>
+</div>
+            <div class="row" ><div class="col" ><h4>Forretter</h4></div></div>
+<div class="row" >
+    <div class="col" >72</div>
+    <div class="col" >Tzaziki</div>
+    <div class="col" >Tzaziki med brød</div>
+    <div class="col" >67,-</div>
+</div>
+<div class="row" >
+    <div class="col" >73</div>
+    <div class="col" >Nachos</div>
+    <div class="col" >Nachos med cheddarost, salsa, guacamole, creme fraische dressing</div>
+    <div class="col" >67,-</div>
+</div>
+<div class="row" >
+    <div class="col" >75</div>
+    <div class="col" >Indbagte Rejer</div>
+    <div class="col" >10 stk. indbagte rejer med citronskive og dressing</div>
+    <div class="col" >68,-</div>
+</div>
+<div class="row" >
+    <div class="col" >76</div>
+    <div class="col" >Hvidløgsbrød</div>
+    <div class="col" >med ost</div>
+    <div class="col" >49,-</div>
+</div>
+<div class="row" >
+    <div class="col" >77</div>
+    <div class="col" >Nachos Kylling</div>
+    <div class="col" >Nachos med cheddarost, kylling, salsa, creme fraische, guacamole</div>
+    <div class="col" >73,-</div>
+</div>
+<div class="row" >
+    <div class="col" >78</div>
+    <div class="col" >Nachos Kebab</div>
+    <div class="col" >Nachos med cheddarost, kebab, salsa, creme fraische dressing, guacamole</div>
+    <div class="col" >73,-</div>
+</div>
+<div class="row" >
+    <div class="col" >79</div>
+    <div class="col" >Kyllingesalat</div>
+    <div class="col" >Kylling med salat, tomat, agurk, majs, champignon, bacon, dressing, og flûtes med smør</div>
+    <div class="col" >70,-</div>
+</div>
+<div class="row" >
+    <div class="col" >80</div>
+    <div class="col" >Grøn Salat</div>
+    <div class="col" >Majs, champignon, løg, tomat, agurk, salatost</div>
+    <div class="col" >70,-</div>
+</div>
+            <div class="row" ><div class="col" ><h4>Spaghetti</h4></div></div>
+<div class="row" >
+    <div class="col" >81</div>
+    <div class="col" >Spaghetti</div>
+    <div class="col" >Spaghetti med kødsauce</div>
+    <div class="col" >73,-</div>
+</div>
+<div class="row" >
+    <div class="col" >82</div>
+    <div class="col" >Spaghetti Bella Roma</div>
+    <div class="col" >med champignong, bacon, flødesauce</div>
+    <div class="col" >81,-</div>
+</div>
+<div class="row" >
+    <div class="col" >83</div>
+    <div class="col" >Spaghetti Special</div>
+    <div class="col" >med kebab, løg, rød peber, flødesauce</div>
+    <div class="col" >81,-</div>
+</div>
+<div class="row" >
+    <div class="col" >84</div>
+    <div class="col" >Spaghetti Carbonara</div>
+    <div class="col" >Spaghetti med bacon, æg og flødesauce</div>
+    <div class="col" >79,-</div>
+</div>
+<div class="row" >
+    <div class="col" >85</div>
+    <div class="col" >Spaghetti Pollo</div>
+    <div class="col" >med kylling, bacon, hvidløg, flødesauce</div>
+    <div class="col" >79,-</div>
+</div>
+<div class="row" >
+    <div class="col" >86</div>
+    <div class="col" >Spaghetti Bella Ciao</div>
+    <div class="col" >med skinke, pølser, flødesauce</div>
+    <div class="col" >79,-</div>
+</div>
+<div class="row" >
+    <div class="col" >87</div>
+    <div class="col" >Spaghetti Stærk</div>
+    <div class="col" >med kylling, rød peber, løg, jalepeños, flødesauce</div>
+    <div class="col" >79,-</div>
+</div>
+<div class="row" >
+    <div class="col" >87A</div>
+    <div class="col" >Spaghetti Reje</div>
+    <div class="col" >Med tigerrejer, krebsehaler, pesto, citron, flødesauce</div>
+    <div class="col" >84,-</div>
+</div>
+
+            <div class="row" ><div class="col" ><h4>Specialiteter</h4></div></div>
+<div class="row" >
+    <div class="col" >88</div>
+    <div class="col" >Græsk Bøf</div>
+    <div class="col" >200g. hakket oksebøf, med amerikanske pommes frites, champignonssauce, salat, dressing</div>
+    <div class="col" >92,-</div>
+</div>
+<div class="row" >
+    <div class="col" >89</div>
+    <div class="col" >Durum Kebab</div>
+    <div class="col" >Stort hjemmebagt fladbrød med kebab, salat, og dressing</div>
+    <div class="col" >69,-</div>
+</div>
+<div class="row" >
+    <div class="col" >90</div>
+    <div class="col" >Durum Kylling</div>
+    <div class="col" >Stort hjemmebagt fladbrød med kylling, salat, og dressing</div>
+    <div class="col" >69,-</div>
+</div>
+<div class="row" >
+    <div class="col" >91</div>
+    <div class="col" >Durum Mix</div>
+    <div class="col" >Stort hjemmebagt fladbrød med kebab, kylling, salat, og dressing</div>
+    <div class="col" >78,-</div>
+</div>
+<div class="row">
+    <div class="col">92</div>
+    <div class="col">Durum Pommes Frites</div>
+    <div class="col">Stort hjemmebagt fladbrød med pommes frites, salat, og dressing og valg mellem: skinke/kebab/kylling.</div>
+    <div class="col">78,-</div>
+</div>
+<div class="row" >
+    <div class="col" >93</div>
+    <div class="col" >Plankebøf</div>
+    <div class="col" >200g bøf med amerikanske pommes frites, stegte løg, bearnaisesauce, salat, og dressing</div>
+    <div class="col" >89,-</div>
+</div>
+<div class="row" >
+    <div class="col" >94</div>
+    <div class="col" >Skinkeschnitzel</div>
+    <div class="col" >Skinkschnitzel med amerikanske pommes frites, bearnaisesauce, salat, dressing</div>
+    <div class="col" >85,-</div>
+</div>
+<div class="row" >
+    <div class="col" >95</div>
+    <div class="col" >Grillkylling</div>
+    <div class="col" >1/2 grillkylling med amerikanske pommes frites, salat, dressing, ketchup og remoulade</div>
+    <div class="col" >85,-</div>
+</div>
+<div class="row" >
+    <div class="col" >96</div>
+    <div class="col" >Fiskefilét</div>
+    <div class="col" >2 stk. fiskefilétter med amerikanske pommes frites, salat, dressing, ketchup og remoulade</div>
+    <div class="col" >85,-</div>
+</div>
+<div class="row" >
+    <div class="col" >97</div>
+    <div class="col" >Kebab Special</div>
+    <div class="col" >kebab, amerikanske pommes frites, hjemmelavet dressing, creme fraiche dressing, salat</div>
+    <div class="col" >83,-</div>
+</div>
+<div class="row" >
+    <div class="col" >97A</div>
+    <div class="col" >Special Mix</div>
+    <div class="col" >kylling, kebab, amerikanske pommes frites, hjemmelavet dressing, creme fraiche dressing, salat</div>
+    <div class="col" >87,-</div>
+</div>
+<div class="row" >
+    <div class="col" >98</div>
+    <div class="col" >Kylling Special</div>
+    <div class="col" >Kylling, amerikanske pommes frites, hjemmelavet dressing, creme fraiche dressing, salat</div>
+    <div class="col" >83,-</div>
+</div>
+<div class="row" >
+    <div class="col" >99</div>
+    <div class="col" >Spareribs</div>
+    <div class="col" >500g.spareribs med barbecuesause, amerikanske pommes frites, creme fraiche dressing, salat</div>
+    <div class="col" >149,-</div>
+</div>
+<div class="row" >
+    <div class="col" >100</div>
+    <div class="col" >Nuggets</div>
+    <div class="col" >12 stk. nuggets med amerikanske pommes frites, salat, dressing, ketchup og remoulade</div>
+    <div class="col" >87,-</div>
+</div>
+<div class="row" >
+    <div class="col" >102</div>
+    <div class="col" >Bilo's Special</div>
+    <div class="col" >Kebab, champignon, majs, grøn peber, rød peber, løg, salat, dressing, og hjemmebagt fladbrød</div>
+    <div class="col" >92,-</div>
+</div>
+<!--
+<div class="row" >
+    <div class="col" >121</div>
+    <div class="col" >Engelsk Bøf</div>
+    <div class="col" >Oksefilét med amerikanske pommes frites, bearnaisesauce, salat, og dressing</div>
+    <div class="col" >199,-</div>
+</div>
+-->
+<div class="row" >
+    <div class="col" >134</div>
+    <div class="col" >Stjerneskud</div>
+    <div class="col" >2 stk. fiskefilet på brød med salat, mayonnaise, rejer, kaviar, asparges, og citron dressing</div>
+    <div class="col" >90,-</div>
+</div>
+
+            <div class="row" ><div class="col" ><h4>Pitabrød</h4></div></div>
+<div class="row" >
+    <div class="col" >103</div>
+    <div class="col" >Pita Kebab</div>
+    <div class="col" >Hjemmelavet brød med kebab, tomatskiver, agurk, dressing</div>
+     <div class="col" >56,-</div>
+</div>
+<div class="row" >
+    <div class="col" >104</div>
+    <div class="col" >Pita Kylling</div>
+    <div class="col" >Hjemmelavet brød med kylling, tomatskiver, agurk, dressing</div>
+    <div class="col" >56</div>
+</div>
+<div class="row" >
+    <div class="col" >105</div>
+    <div class="col" >Pita Tun</div>
+    <div class="col" >Hjemmelavet brød med tun, tomatskiver, agurk, dressing</div>
+    <div class="col" >56,-</div>
+</div>
+<div class="row" >
+    <div class="col" >106</div>
+    <div class="col" >Pita Rejer</div>
+    <div class="col" >Hjemmelavet brød med tun, tomatskiver, agurk, dressing</div>
+    <div class="col" >56,-</div>
+</div>
+<div class="row" >
+    <div class="col" >107</div>
+    <div class="col" >Sindal Kebab</div>
+    <div class="col" >Hjemmelavet brød med 200g. bøf, tomatskiver, agurk, dressing</div>
+    <div class="col" >65,-</div>
+</div>
+
+            <div class="row" ><div class="col" ><h4>Burger</h4></div></div>
+<div class="row" >
+    <div class="col" >108</div>
+    <div class="col" >Dobbelt Burger</div>
+    <div class="col" >med 2 stk. bøf, salat, tomatskiver, agurk, ketchup, mayonaise, og burgerdressing</div>
+    <div class="col" >60,-</div>
+</div>
+<div class="row" >
+    <div class="col" >109</div>
+    <div class="col" >Big Burger</div>
+    <div class="col" >med bøf, salat, tomatskiver, agurk, ketchup, mayonaise, og burgerdressing</div>
+    <div class="col" >56,-</div>
+</div>
+<div class="row" >
+    <div class="col" >110</div>
+    <div class="col" >Cheese Burger</div>
+    <div class="col" >med bøf, ost, salat, tomatskriver, agurk, ketchup, mayonaise, og birgerdressing</div>
+    <div class="col" >58,-</div>
+</div>
+<div class="row" >
+    <div class="col" >111</div>
+    <div class="col" >Klassisk Burger</div>
+    <div class="col" >med hjemmelavet oksebøf på 200g., salat, tomatskiver, agurk, ketchup, mayonaise, og burgerdressing</div>
+    <div class="col" >72,-</div>
+</div>
+<div class="row" >
+    <div class="col" >112</div>
+    <div class="col" >American Burger</div>
+    <div class="col" >med 200g hjemmelavet oksekød, brød, ost, tomatskiver, agurk, salat, hvidløgsmayonnaise, amerikanske frites</div>
+    <div class="col" >90,-</div>
+</div>
+<div class="row" >
+    <div class="col" >113</div>
+    <div class="col" >Mamma's Special Burger</div>
+    <div class="col" >med hjemmelavet oksebøf på 200g. med bacon, ost, salat, tomatskiver, agurk, ketchup, mayonnaise, og burgerdressing</div>
+    <div class="col" >75,-</div>
+</div>
+<div class="row" >
+<div class="col" >114</div>
+    <div class="col" >Pommes Frites</div>
+    <div class="col" >Amerikanske pommes frites</div>
+    <div class="col" >39,-</div>
+</div>
+<div class="row" >
+    <div class="col" >135</div>
+    <div class="col" >Chicken Burger</div>
+    <div class="col" >med kyllingebøf, salat, tomatskiver, agurk, creme fraische</div>
+    <div class="col" >68,-</div>
+</div>
+<div class="row" >
+    <div class="col" >142</div>
+    <div class="col" >Team-Box</div>
+    <div class="col" >4 stk. mozzarella sticks, 4 stk. løgringe, 4 stk. chili cheese tops, amerikanske frites, ketchup, hvidløgsmayonnaise</div>
+    <div class="col" >82,-</div>
+</div>
+
+
+            <div class="row" ><div class="col" ><h4>Ekstra tilbehør</h4></div></div>
+<div class="row" >
+    <div class="col" >Grøntsager</div>
+    <div class="col" >Pris pr. del</div>
+    <div class="col" >8,-</div>
+</div>
+<div class="row" >
+    <div class="col" >Kød, Frisk eller Ost</div>
+    <div class="col" >pris pr. del</div>
+    <div class="col" >14,-</div>
+</div>
+<div class="row" >
+    <div class="col" >Salat</div>
+    <div class="col" >Salat på pizza</div>
+    <div class="col" >15,-</div>
+</div>
+<div class="row" >
+    <div class="col" >Dessing eller Sauce</div>
+    <div class="col" >Få dressing eller sauce</div>
+    <div class="col" >10,-</div>
+</div>
+<div class="row" >
+    <div class="col" >Ekstra fyld på pizza</div>
+    <div class="col" >Få noget ekstra fyld på din pizza.</div>
+    <div class="col" >25,-</div>
+</div>
+<div class="row" >
+    <div class="col" >Chili eller Hvidløg</div>
+    <div class="col" >Chilisauce eller hvidløg i bæger ved siden af.</div>
+    <div class="col" >10,-</div>
+</div>
+<div class="row" >
+    <div class="col" >Flûtes</div>
+    <div class="col" >Få flûte ved siden af</div>
+    <div class="col" >25,-</div>
+</div>
+            <div class="row" ><div class="col" ><h4>Hjemmelavet Sandwich</h4></div></div>
+<div class="row" >
+    <div class="col" >115</div>
+    <div class="col" >Sandwich Kylling</div>
+    <div class="col" >med kylling, salat, tomat, agurk, creme fraiche dressing</div>
+    <div class="col" >72,-</div>
+</div>
+<div class="row" >
+    <div class="col" >116</div>
+    <div class="col" >Sandwich Kebab</div>
+    <div class="col" >med kebab, salat, tomat, agurk, creme fraiche  dressing</div>
+    <div class="col" >72,-</div>
+</div>
+<div class="row" >
+    <div class="col" >117</div>
+    <div class="col" >Sandwich Kylling Tzaziki</div>
+    <div class="col" >med kylling, tzaziki, salat, tomat, agurk</div>
+    <div class="col" >72,-</div>
+</div>
+<div class="row" >
+    <div class="col" >118</div>
+    <div class="col" >Sandwich Kylling Bacon</div>
+    <div class="col" >med kylling, bacon, salat, hvidløg, tomat, agurk, creme fraiche dressing</div>
+    <div class="col" >77,-</div>
+</div>
+<div class="row" >
+    <div class="col" >119</div>
+    <div class="col" >Sandwich Oksekød Kylling</div>
+    <div class="col" >med oksekød, kylling, salat, tomat, agurk, creme fraiche dressing</div>
+    <div class="col" >77,-</div>
+</div>
+
+            <div class="row" ><div class="col" ><h4>Deserter</h4></div></div>
+<div class="row" >
+    <div class="col" >126</div>
+    <div class="col" >Chokoladekage</div>
+    <div class="col" >Chokoladekage med chokoladesauce</div>
+    <div class="col" >55,-</div>
+</div>
+<div class="row" >
+    <div class="col" >127</div>
+    <div class="col" >Æblekage</div>
+    <div class="col" >Æblekage med creme fraiche og chokoladesauce</div>
+    <div class="col" >55,-</div>
+</div>
+
+            <div class="row" ><div class="col" ><h4>Kaffe</h4></div></div>
+<div class="row" >
+    <div class="col" >Kaffe</div>
+    <div class="col" >Normal kaffe</div>
+    <div class="col" >20,-</div>
+</div>
+<div class="row" >
+    <div class="col" >Irsk Kaffe</div>
+    <div class="col" >Kaffe med sukker og whisky toppet med flødeskum</div>
+    <div class="col" >55,-</div>
+</div>
+            <div class="row" ><div class="col" ><h4>Spiritus</h4></div></div>
+<div class="row" >
+    <div class="col" >Whisky 2 cl</div>
+    <div class="col" >45,-</div>
+</div>
+<div class="row" >
+    <div class="col" >Jägermeister 2 cl.</div>
+    <div class="col" >45,-</div>
+</div>
+<div class="row" >
+    <div class="col" >Gammel Dansk 2 cl</div>
+    <div class="col" >45,-</div>
+</div>
+            <div class="row" ><div class="col" ><h4>Vin</h4></div></div>
+<div class="row" ><div class="col" ><i>Serveres med vand</i></div></div>
+<div class="row" >
+    <div class="col" >1 Glas Vin, vælg mellem:</div>
+    <div class="col" >
+        <br>- Husets Rødvin
+        <br>- Husets Hvidvin 
+        <br>- Husets Rosévin
+    </div>
+    <div class="col" >40,-</div>
+</div>
+<div class="row" >
+    <div class="col" >1 Flaske Vin, vælg mellem: </div>
+    <div class="col" >
+    <br>- Husets Rødvin
+    <br>- Husets Hvidvin
+    <br>- Husets Rosévin </div>
+    <div class="col" >189,-</div>
+</div>
+            <div class="row" ><div class="col"><h4>Øl</h4></div></div>
+<div class="row" >
+    <div class="col" >
+        Heiniken Fadøl 4.6%
+    </div>
+    <div class="col">
+       25cl 35,-
+    </div>
+    <div class="col" >
+      50cl 45,-
+    </div>
+</div>
+<div class="row" >
+    <div class="col" >
+        Heiniken flaskeøl 0.0%
+    </div>
+    <div class="col">
+       
+    </div>
+    <div class="col" >
+      33cl 35,-
+    </div>
+</div>
+
+            <div class="row" ><div class="col" ><h4>Sodavand</h4></div></div>
+<div class="row" >
+    <div class="col" >Sodavand 25 cl</div>
+    <div class="col" >
+        vælg mellem: 
+        <br>- Pepsi
+        <br>- Pepsi Max
+        <br>- Mirinda Orange
+        <br>- Mirinda Lemon
+        <br>- Sprite
+    </div>
+    <div class="col" >32,-</div>
+</div>
+<div class="row" >
+    <div class="col" >Sodavand 50 cl</div>
+    <div class="col" >
+        vælg mellem: 
+        <br>- Pepsi
+        <br>- Pepsi Max
+        <br>- Mirinda Orange
+        <br>- Mirinda Lemon
+        <br>- Sprite
+    </div>
+    <div class="col" >42,-</div>
+</div>
+
+            <div class="row"><div class="col"><h4>Vand</h4></div></div>
+<div class="row" >
+    <div class="col" >Ramlösa Original 50 cl</div>
+    <div class="col" >Mineralvand med brus</div>
+    <div class="col" >42,-</div>
+</div>
+<div class="row" >
+    <div class="col" >Kildevæld 50 cl</div>
+    <div class="col" >Mineralvand uden brus</div>
+    <div class="col" >20,-</div>
+</div>
+        </div>
+    </article>
+</section>
+<!--END MenuCard Section-->
+    <!-- SECTION INFO -->
+    <section class="info-section">
+        <!-- ARTICLE OPENING HOURS -->
+        <article id="opening-hours-id" class="article opening-hours-article">
+            <h1 class="big-title">Åbningstider</h1>
+            <h1 class="title">Vintertid</h1>
+
+            <div class="opening-hours-div">
+                <p class="opening-hours-info opening-hours-day">Mandag - Lørdag</p>
+                <p class="opening-hours-info opening-hours-hours">11:00-21:00</p>
+                <div class="div-line"></div>
+            </div>
+
+
+            <div class="opening-hours-div">
+                <p class="opening-hours-info opening-hours-day">Søndag</p>
+                <p class="opening-hours-info opening-hours-hours">12:00-21:00</p>
+                <div class="div-line"></div>
+            </div>
+            <h1 class="title">Sommertid</h1>
+            <div class="opening-hours-div">
+                <p class="opening-hours-info opening-hours-day">Mandag - lørdag</p>
+                <p class="opening-hours-info opening-hours-hours">11:00-21:00</p>
+                <div class="div-line"></div>
+            </div>
+
+            <div class="opening-hours-div">
+                <p class="opening-hours-info opening-hours-day">Søndag</p>
+                <p class="opening-hours-info opening-hours-hours">12:00-21:00</p>
+                <div class="div-line"></div>
+            </div>
+
+            
+
+            <div class="opening-hours-div opening-hours-text-div work-around">
+                <p class="opening-hours-info">Køkkenet lukker en halv time <br> før lukketid</p>
+                <div class="div-line"></div>
+            </div>
+        </article>
+        <!--END Opening Hours Article-->
+        <!-- ARTICLE CONTACT -->
+        <article id="contact-id" class="article contact-article">
+            <h1 class="title">Kontakt</h1>
+            <!-- PHONE -->
+            <div class="phone-div">
+                <p class="imp-text">Ring og bestil på tlf.:<span class="imp-text-white"><a href="tel:98935566"> 98 93 55 66</a></span></p>
+                <div class="div-line"></div>
+            </div>
+            <!--END Phone-->
+            <!-- MAPS GOOGLE -->
+            <p class="imp-text">Nørregade 18 - 9870 Sindal</p>
+            
+<div id="map" class="mapouter">
+  <div class="gmap_canvas">
+    <iframe 
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2145.352306943205!2d10.200434115900423!3d57.47233548104808!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x464f330f2a90ba79%3A0x6f91d0ddf84c0b2f!2sMammas%20Pizza%20og%20Kebab%20House!5e0!3m2!1sen!2sdk!4v1646690179141!5m2!1sen!2sdk" 
+        width="200" 
+        height="200" 
+        style="border:0;" 
+        allowfullscreen="" 
+        loading="lazy">
+    </iframe>
+</div>
+</div>
+  <style>
+    .mapouter{
+      position:relative;
+      text-align:right;
+      height:200px;
+      width:200px;
+    }
+    .gmap_canvas{
+      overflow:hidden;
+      background:none!important;
+      height:200px;
+      width:200px;
+      border: 2px solid black;
+      box-shadow: 5px 5px 10px black;
+      border-radius: 25px;
+    }
+  </style>
+        </article>
+        <!--END Contact Article-->
+        <!-- ARTICLE WELCOME -->
+        <article class="article">
+            <h1 class="title">Velkommen til Mamma's Pizza & Restaurant!</h1>
+            <p class="imp-text welcome-text">
+                Med 25 års erfaring inden for branchen laver vi på Mamma's Pizza & Restaurant mad med kærlighed, da vi har en stor passion for god madlavning og l&aegger en ære i, at give vores kunder en god oplevelse i smukke og hyggelige omgivelser.
+                <br />
+                <br />
+                Gør din dag lidt lette, spring madlavningen kom og få lækker mad fra os.
+                Vi har en menu med et bredt udvalg, hvor du finder noget for en hver smag.
+                <br />
+                <br />
+                Hos os finder du både mad til hverdagen, noget hurtigt på vejen, og til dage med
+                lidt ekstra forkælelse, hvor vi bl.a. tilbyder steak, der kan nydes med lækre drikkevarer.
+                <br />
+                <br />
+                Så skal hverdagen piftes op med en hyggeligt tur på restaurant, kan I komme til vores flotte
+                restaurant og blive forkælet med forret, hovedret, desert og fine drikkevarer til og efter maden.
+                <br />
+                <br />
+                Er du ude efter frokost, har vi specielle frokosttilbud af et udvalg fra menuen.
+                Har du lyst til pizza har vi et bredt udvalg af forskellige typer og spændene pizzaer.
+                Få mad til hele familien, hvor vi naturligvis har en speciel børnemenu til børnene.
+                <br />
+                <br />
+                Se vores menukort, og find lige præcis det, du har lyst til, hvor du kan vælge mellem:
+            </p>
+        </article>
+        <!--END Welcome Article-->
+        <!-- LINK FACEBOOK -->
+        <a class="no-underline" target="_blank" href="https://www.facebook.com/profile.php?id=100063504642446">
+            <div class="facebook">
+                <i class="fa fa-facebook-square" aria-hidden="true"></i>
+                <p>Facebook</p>
+            </div>
+        </a>
+        <!--END Facebook Link-->
+    </section>
+    <!--END Info Section-->
+
+        </main>
+    </div>
+<!-- FOOTER -->
+<footer onclick="closeMenu()" id="footer">
+    <div>
+        <ul class="footer-list">
+            <li class=" list-header">Find vej</li>
+            <li>
+                <div id="map" class="mapouter">
+                    <div class="gmap_canvas">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2145.352306943205!2d10.200434115900423!3d57.47233548104808!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x464f330f2a90ba79%3A0x6f91d0ddf84c0b2f!2sMammas%20Pizza%20og%20Kebab%20House!5e0!3m2!1sen!2sdk!4v1646690179141!5m2!1sen!2sdk"
+                                width="200"
+                                height="200"
+                                style="border:0;"
+                                allowfullscreen=""
+                                loading="lazy">
+                        </iframe>
+                    </div>
+                </div>
+                <style>
+                    .mapouter {
+                        position: relative;
+                        text-align: right;
+                        height: 200px;
+                        width: 200px;
+                    }
+
+                    .gmap_canvas {
+                        overflow: hidden;
+                        background: none !important;
+                        height: 200px;
+                        width: 200px;
+                        border: 2px solid black;
+                        box-shadow: 5px 5px 10px black;
+                        border-radius: 25px;
+                    }
+                </style>
+            </li>
+        </ul>
+    </div>
+
+    <div>
+        <ul class="footer-list">
+            <li class="footer-item list-header">Webmaster</li>
+            <li class="footer-item">
+                Webside udbudt af <i>Badilli FM - afd.: TeamAgileDevelopement</i>.
+                Kontakt for at få lavet en hjemmeside på:
+                e-mail: mihaela@badilli-fm.dk
+                og få en snak om de funktioner, netop du/I har brug for,
+                så finder vi et godt tilbud til dig/Jer.
+                <a href="https://teamagiledev.azurewebsites.net">Badilli-FM</a>
+            </li>
+        </ul>
+    </div>
+</footer>
+    <!--END Footer-->
+
